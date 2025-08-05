@@ -1,14 +1,8 @@
 # flatten-geojson
-
-This repository is an **illustration** of how overlapping GeoJSON polygons 
-on a map that contain attributes can be **flattened** 
-(i.e., processed so that resulting polygon layers no longer overlap, 
-preserving the original attributes).
-
-## Overview
 This project illustrates how to flatten overlapping polygons in a GeoJSON `FeatureCollection`,
 ensuring that the attributes of the topmost polygon are preserved in areas where overlaps occur.
 
+## Overview
 Below is a visual example showing the input polygons and the resulting flattened output.
 The original polygons are layered red, green, and blue — from bottom to top.
 
