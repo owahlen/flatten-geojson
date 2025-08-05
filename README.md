@@ -41,5 +41,5 @@ The test will generate two files in the `geojson/` directory:
 ### Visualizing the output
 To view the polygons on a map:
 Open [https://geojson.io](https://geojson.io) in your browser.
-Drag and drop either `input.geojson` or `hamburg_output.geojson` onto the map
+Drag and drop either `input.geojson` or `output.geojson` onto the map
 Each polygon is styled with color and transparency based on its type property for easier inspection.
