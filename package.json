@@ -1,0 +1,24 @@
+{
+  "name": "flatten-geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node flatten.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/jest": "^29.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.0"
+  }
+}
