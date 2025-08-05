@@ -1,15 +1,11 @@
 {
   "name": "flatten-geojson",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "ts-node flatten.ts",
-    "test": "jest"
+    "test": "jest --config jest.config.ts",
+    "view": "npx serve geojson"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@turf/turf": "^7.2.0"
   },

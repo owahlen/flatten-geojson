@@ -5,6 +5,9 @@
 /dist/
 /build/
 
+# Test output
+*.geojson
+
 # TypeScript cache
 *.tsbuildinfo
 
